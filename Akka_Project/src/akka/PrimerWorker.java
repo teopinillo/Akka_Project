@@ -5,6 +5,9 @@ public class PrimerWorker {
 	
 
 	public static void main(String[] args) {
+		long endTime = 0;
+		long startTime = System.currentTimeMillis();
+		
 		//testing variables
 		int start=3;
 		int end=100;
@@ -15,9 +18,8 @@ public class PrimerWorker {
 				System.out.println(i);
 			}
 		}
-		
-		
-		
+		endTime = System.currentTimeMillis();	
+		System.out.println ("Time: "+ (endTime-startTime) +" ms");
 
 	}
 	
